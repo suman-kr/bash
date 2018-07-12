@@ -8,7 +8,7 @@ spin()
 		do
 			echo -n "${string:$i:1}"
 			echo -en "\010"
-			sleep 2
+			sleep 1
 		done
 	done
 }
